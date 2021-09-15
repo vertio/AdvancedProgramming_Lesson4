@@ -1,4 +1,4 @@
-# Laboratorium Programowania Zaawansowanego Nr 4
+# Wyższa Szkoła Bankowa Advanced Programming - labor 4 Krzysztof Drzewiecki 114939 gr23_inf_nw4
 
 W tym laboratorium poruszane są następujące zagadnienia:
 1. Technologia 'Razor Pages' nazywana inaczej 'Asp.Net Core Web Apps'.
@@ -45,11 +45,4 @@ public async Task SendMessage(string user, string message)
 
 ```
 
-# Literatura pomocnicza
 
-1. https://docs.microsoft.com/pl-pl/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio
-2. https://stackoverflow.com/questions/50179696/how-add-asp-net-core-identity-to-existing-core-mvc-project
-3. https://docs.microsoft.com/pl-pl/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio
-
-# Ostatnia zmiana
-28/06/2021
