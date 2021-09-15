@@ -1,0 +1,26 @@
+﻿@page
+@model ErrorModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Błąd.</h1>
+<h2 class="text-danger">Podczas przetwarzania żądania wystąpił błąd.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Tryb rozwoju</h3>
+<p>
+    Przejście na środowisko <strong>Programowanie</strong> wyświetla szczegółowe informacje o błędzie, który wystąpił.
+</p>
+<p>
+    <strong>Środowisko programistyczne nie powinno być włączone dla wdrożonych aplikacji.</strong>
+    Może to skutkować wyświetlaniem poufnych informacji z wyjątków użytkownikom końcowym.
+    W przypadku debugowania lokalnego włącz środowisko <strong>Development</strong>, ustawiając zmienną środowiskową <strong>ASPNETCORE_ENVIRONMENT</strong> na <strong>Development</strong>
+    i ponowne uruchomienie aplikacji.
+</p>
